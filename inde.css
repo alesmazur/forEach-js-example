@@ -1,0 +1,26 @@
+body {
+  text-align: center;
+}
+
+ul,
+li {
+  list-style: none;
+}
+
+.track-list {
+  margin: auto;
+  text-align: left;
+  max-width: fit-content;
+  padding: 15px;
+}
+.track-list .li {
+  margin-top: 10px;
+}
+
+.band,
+.band-p,
+.band ul {
+  text-align: left;
+  margin-left: 0;
+  padding-left: 0;
+}
