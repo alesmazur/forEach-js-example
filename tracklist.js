@@ -40,3 +40,11 @@ band.forEach((musician) => {
 });
 
 bandList.innerHTML = participiant;
+
+// values
+Object.values(tracks).forEach((value) => console.log(value));
+// keys
+
+Object.keys(band).forEach((key) => {
+  console.log(`Made by:  ${Number(key)}, ${band[key]}`);
+});
